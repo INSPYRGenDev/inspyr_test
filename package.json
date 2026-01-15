@@ -1,5 +1,5 @@
 {
-  "name": "inspyr-education",
+  "name": "Inspyr-education",
   "private": true,
   "scripts": {
     "dev": "next dev",
