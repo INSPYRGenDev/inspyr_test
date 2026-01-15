@@ -1,17 +1,8 @@
-{
-  "name": "inspyr-education",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16"
-  }
+export default function Home() {
+  return (
+    <main style={{ padding: "40px", fontFamily: "sans-serif" }}>
+      <h1>Inspyr Education ✨</h1>
+      <p>Free GCSE & A-Level learning, reimagined.</p>
+    </main>
+  );
 }
